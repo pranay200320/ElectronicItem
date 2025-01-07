@@ -3,7 +3,7 @@ import speakers from "./assets/images/img/speakers.jpg";
 import watch from "./assets/images/img/watch.jpg";
 import pendrive from "./assets/images/img/pendrive.jpg";
 import laptop from "./assets/images/img/laptop.jpg";
-import headset from "./assets/images/img/headset.jpg";
+import headset from "./assets/images/img/cat3.jpg";
 import mouse from "./assets/images/img/mouse.jpg";
 import camera from "./assets/images/img/camera.jpg";
 import test1 from "./assets/images/img/test-1.jpg";

@@ -7,7 +7,7 @@ import earbuds from "../../assets/images/img/earbuds.jpg"
 import earbud from "../../assets/images/img/earbud.jpg"
 import dslr from "../../assets/images/img/dslr.jpg"
 import AOS from 'aos'
-import 'aos/dist/aos.css'
+
 
 
 
@@ -19,6 +19,7 @@ const Hero = () => {
         slidesToShow: 1,
         slidesToScroll: 1,
         arrowsL: false
+
     };
     useEffect(() => {
         AOS.init({
@@ -39,7 +40,7 @@ const Hero = () => {
                         <h1 data-aos='zoom-in' data-aos-delay='100' className='text-white lg:text-[120px] text-[60px] uppercase font-bold lg:leading-[120px] leading-[70px]'>DSLR 360 <br /> Camera </h1>
 
                         <h1 data-aos='zoom-in' data-aos-delay='100' className='text-white text-2xl'>
-                            100% Trusted <span className='text-themeyellow font-semibold'>Electronics Gadgets</span>
+                            100% Trusted <span className='text-themeyellow font-semibold '>Electronics Gadgets</span>
                         </h1>
                         <button data-aos='zoom-in' data-aos-delay='200' className='bg-themeyellow px-6 py-3 rounded-lg text-black font-semibold'>
                             ONLINE COLLECTIONS
@@ -50,8 +51,8 @@ const Hero = () => {
                 </div>
                 <div>
                     <div className='w-full lg:px-20 px-5 lg:h-[700px] h-[600px] flex flex-col justify-center items-start gap-10 bg-cover bg-center' style={{ backgroundImage: `url(${earbuds})` }}>
-                        <h1 data-aos='zoom-in' data-aos-delay='100' className='text-themeyellow border rounded-lg border-themeyellow px-6 py-2 text-xl'>Get UpTo Discounts 80% Off </h1>
-                        <h1 data-aos='zoom-in' data-aos-delay='100' className='text-white lg:text-[120px] text-[60px] uppercase font-bold lg:leading-[120px] leading-[70px]'>DSLR 360 <br /> Camera </h1>
+                        <h1 data-aos='zoom-in' data-aos-delay='100' className='text-themeyellow border rounded-lg border-themeyellow px-6 py-2 text-xl'>Get UpTo Discounts 50% Off </h1>
+                        <h1 data-aos='zoom-in' data-aos-delay='100' className='text-white lg:text-[120px] text-[60px] uppercase font-bold lg:leading-[120px] leading-[70px]'>WireLess <br /> EarBuds </h1>
 
                         <h1 data-aos='zoom-in' data-aos-delay='100' className='text-white text-2xl'>
                             100% Trusted <span className='text-themeyellow font-semibold'>Electronics Gadgets</span>
@@ -65,8 +66,8 @@ const Hero = () => {
                 </div>
                 <div>
                     <div className='w-full lg:px-20 px-5 lg:h-[700px] h-[600px] flex flex-col justify-center items-start gap-10 bg-cover bg-center' style={{ backgroundImage: `url(${headset})` }}>
-                        <h1 data-aos='zoom-in' data-aos-delay='100' className='text-themeyellow border rounded-lg border-themeyellow px-6 py-2 text-xl'>Get UpTo Discounts 80% Off </h1>
-                        <h1 data-aos='zoom-in' data-aos-delay='100' className='text-white lg:text-[120px] text-[60px] uppercase font-bold lg:leading-[120px] leading-[70px]'>DSLR 360 <br /> Camera </h1>
+                        <h1 data-aos='zoom-in' data-aos-delay='100' className='text-themeyellow border rounded-lg border-themeyellow px-6 py-2 text-xl'>Get UpTo Discounts 60% Off </h1>
+                        <h1 data-aos='zoom-in' data-aos-delay='100' className='text-white lg:text-[120px] text-[60px] uppercase font-bold lg:leading-[120px] leading-[70px]'>WireLess <br /> HeadPhones </h1>
 
                         <h1 data-aos='zoom-in' data-aos-delay='100' className='text-white text-2xl'>
                             100% Trusted <span className='text-themeyellow font-semibold'>Electronics Gadgets</span>
@@ -78,23 +79,10 @@ const Hero = () => {
                     </div>
 
                 </div>
-                <div>
-                    <div className='w-full lg:px-20 px-5 lg:h-[700px] h-[600px] flex flex-col justify-center items-start gap-10 bg-cover bg-center' style={{ backgroundImage: `url(${earbud})` }}>
-                        <h1 data-aos='zoom-in' data-aos-delay='100' className='text-themeyellow border rounded-lg border-themeyellow px-6 py-2 text-xl'>Get UpTo Discounts 80% Off </h1>
-                        <h1 data-aos='zoom-in' data-aos-delay='100' className='text-white lg:text-[120px] text-[60px] uppercase font-bold lg:leading-[120px] leading-[70px]'>DSLR 360 <br /> Camera </h1>
 
-                        <h1 data-aos='zoom-in' data-aos-delay='100' className='text-white text-2xl'>
-                            100% Trusted <span className='text-themeyellow font-semibold'>Electronics Gadgets</span>
-                        </h1>
-                        <button data-aos='zoom-in' data-aos-delay='200' className='bg-themeyellow px-6 py-3 rounded-lg text-black font-semibold'>
-                            ONLINE COLLECTIONS
-                        </button>
 
-                    </div>
-
-                </div>
-            </Slider>
-        </div>
+            </Slider >
+        </div >
 
     )
 }
