@@ -75,12 +75,8 @@ const Hero = () => {
                         <button data-aos='zoom-in' data-aos-delay='200' className='bg-themeyellow px-6 py-3 rounded-lg text-black font-semibold'>
                             ONLINE COLLECTIONS
                         </button>
-
                     </div>
-
                 </div>
-
-
             </Slider >
         </div >
 

@@ -12,7 +12,7 @@ const Reviewes = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 2,
     slidesToScroll: 1,
     arrowsL: false,
     responsive: [
@@ -65,8 +65,8 @@ const Reviewes = () => {
           <Slider className="w-full" {...settings}>
             {
               reviewdata.map((item, index) => (
-                <div>
-                  <div key={index} className="w-full flex flex-col justify-center items-center gap-4 lg:p-10 p-3">
+                <div key={index}>
+                  <div className="w-full flex flex-col justify-center items-center gap-4 lg:p-10 p-3">
                     <img src={item.img} alt="" className="rounded-full w-[100px] m-auto" />
                   </div>
                   <div className="flex justify-center items-center gap-1">
@@ -77,8 +77,14 @@ const Reviewes = () => {
                     <FaStar className="text-themeyellow" />
                   </div>
                   <p className="text-center text-lg text-gray-500">{item.para}</p>
+
                   <div className="flex justify-center items-center gap-5">
                     <FaQuoteLeft className="fill-themepurpule size-16" />
+
+                    <div className="flex flex-col justify-center items-start">
+                      <h1 className="text-black text-xl capitalize font-semibold">{item.name}</h1>
+                      <h1 className="text-gray-500 capitalize">{item.post}</h1>
+                    </div>
                   </div>
                 </div>
               ))
